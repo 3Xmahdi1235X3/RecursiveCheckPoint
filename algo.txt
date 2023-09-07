@@ -1,0 +1,12 @@
+Function isPlandrome(s:STRING) : BOOLEAN
+BEGIN
+	IF(LENGTH(s) = 1 ) THEN 
+		RETURN TRUE
+	ELSE 
+		IF(s[0] = s[LENGTH(s)-1] THEN
+			RETURN isPalndrome(SubString(s,1,LENGTH(s)-2)
+		ELSE 
+			RETURN FALSE
+		ENDIF
+	ENDIF
+END
